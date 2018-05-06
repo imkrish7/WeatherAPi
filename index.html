@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css"
+/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="col">
+      <header class="col-xs-12 text-center">
+        <h1>Free C
+          <i class="wi wi-hail"></i>de Camp</h1>
+        <h1>Weather App</h1>
+      </header>
+
+      <div class="col-xs-8 col-xs-offset-2">
+        <div class="text-center status">
+          <p>
+            <span class="location"></span>
+            <span class="country"></span>
+          </p>
+          <p>
+            <span id="temperature"></span>
+            <span class="temp" id="tempUnit"></span>
+            <p id="weather"></p>
+        </div>
+
+        <div class="text-center all-icon">
+          <div class="icon sun-shower hide ">
+            <div class="cloud"></div>
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+            <div class="rain"></div>
+          </div>
+          <div class="icon thunder-storm hide thunderstom">
+            <div class="cloud"></div>
+            <div class="lightning">
+              <div class="bolt"></div>
+              <div class="bolt"></div>
+            </div>
+          </div>
+          <div class="icon cloudy hide clouds">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+          </div>
+          <div class="icon flurries hide snow">
+            <div class="cloud"></div>
+            <div class="snow">
+              <div class="flake"></div>
+              <div class="flake"></div>
+            </div>
+          </div>
+          <div class="icon sunny hide clear">
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+          </div>
+          <div class="icon rainy hide rain">
+            <div class="cloud"></div>
+            <div class="rain"></div>
+          </div>
+        </div>
+        <p class="text-center">Inspired by Joshbader</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
